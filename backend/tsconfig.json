@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "lib": ["es2022", "DOM"],
+    "allowJs": false,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "sourceMap": false,
+    "baseUrl": "./src",
+    "outDir": "dist",
+    "types": ["@types/node"],
+    "paths": {
+      "@/services/*": ["./src/Services/*"],
+      "@/handler/*": ["./src/Handler/*"],
+      "@/Routes/*": ["./src/Routes/*"],
+      "@/Utils/*": ["./src/Utils/*"],
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src", "jest.config.ts"],
+  "exclude": ["node_modules"]
+}
