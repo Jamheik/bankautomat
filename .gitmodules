@@ -1,0 +1,4 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Aik-10/school_bank_api
+	branch = master
