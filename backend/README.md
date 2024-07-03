@@ -21,18 +21,6 @@ Before running this backend system, ensure you have the following installed:
 - Node.js and npm: [Download and install Node.js](https://nodejs.org/).
 - Azure Functions Core Tools: Install using npm with `npm install -g azure-functions-core-tools`.
 
-## Installation
-
-1. Clone this repository to your local machine:
-```bash
-git clone https://github.com/Aik-10/school_bank_api
-cd school_bank_api
-```
-2. Install dependencies:
-```bash
-pnpm i
-```
-
 ## Configuration
 
 Before running the application, you need to set up the necessary configuration variables. edit a local.settings.json file in the root directory of the project and define the following variables:
